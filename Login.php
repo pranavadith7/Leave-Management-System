@@ -2,7 +2,7 @@
 <head>
  
     <link rel="stylesheet" href="LoginCs.css">
-
+    <title>Login</title>
 </head>
 
 <?php

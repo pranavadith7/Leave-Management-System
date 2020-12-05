@@ -1,6 +1,6 @@
 <html>
 <head>
-<title Admin Page></title>
+<title>Admin Page</title>
 <body>
 <style>
     body {

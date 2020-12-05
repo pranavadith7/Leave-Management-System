@@ -6,6 +6,7 @@
     <script src="http://code.jquery.com/jquery-2.2.4.js"></script>
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     <link href="https://code.jquery.com/ui/1.11.3/themes/smoothness/jquery-ui.css" rel="stylesheet">
+    <title>Home</title>
     <style type="text/css">
       .ap-btn {
         margin-top: 100px;
