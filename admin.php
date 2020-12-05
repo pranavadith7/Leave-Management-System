@@ -54,7 +54,8 @@ div {
 <?php
 
 // Create connection
-$conn = mysqli_connect('localhost', 'root', '','leave');
+//$conn = mysqli_connect('localhost', 'root', '','leave');
+include_once('connection.php');
 // Check connection
 if (!$conn) {
     die("Connection failed: " . mysqli_connect_error());

@@ -42,8 +42,8 @@
         header('location: login.php');
       }
       // Connection
-      $conn= mysqli_connect('localhost', 'root', '','leave');
-
+      //$conn= mysqli_connect('localhost', 'root', '','leave');
+      include_once('connection.php');
 
       $session_roll = $_SESSION['rollNo'];
       $sql1 = "SELECT l_status FROM apply WHERE rollno=$session_roll";

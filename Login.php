@@ -13,7 +13,8 @@
   if(isset($_POST['logout'])) {
     session_destroy();
   }
-	$conn= mysqli_connect('localhost', 'root', '','leave');
+  //$conn= mysqli_connect('localhost', 'root', '','leave');
+  include_once('connection.php');
 	if (!$conn) {
     echo "Connection failed: " . mysqli_connect_error();
 	}
