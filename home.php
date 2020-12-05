@@ -83,7 +83,7 @@
 </head>
 
    <body>
-   <form action="login.php" method="post">
+   <form action="Login.php" method="post">
       <div class="field btns">
         <input class="ap-btn" type="button" onclick="BalFunc()" id="BalButton" name="sample" value="Balance Leaves"><br>
         <input class="ap-btn" type="button" onclick="StatusFunc()" id="StatusButton" name="sample" value="Leave Status"><br>

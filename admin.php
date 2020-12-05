@@ -126,7 +126,7 @@ if (mysqli_num_rows($result) > 0) {
 
 </form>
 
-<form action="login.php" method="post">
+<form action="Login.php" method="post">
       <input class="ap-btn" type="submit" name="logout" value="Logout">    
     </form>
 
