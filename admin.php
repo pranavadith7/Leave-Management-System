@@ -97,7 +97,7 @@ if (mysqli_num_rows($result) > 0) {
 <div>
 
 
-<form action="http://localhost/project/admin.php" method="post">
+<form action="admin.php" method="post">
     <input type="hidden" name="id" value="<?php echo $id; ?>">
   <h1>Leave Request Form</h1><br>
 
@@ -126,7 +126,7 @@ if (mysqli_num_rows($result) > 0) {
 
 </form>
 
-<form action="http://localhost/project/login.php" method="post">
+<form action="login.php" method="post">
       <input class="ap-btn" type="submit" name="logout" value="Logout">    
     </form>
 
