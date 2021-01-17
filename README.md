@@ -1,2 +1,2 @@
-# Leave-Management-Sytstem
+# Leave-Management-System
 ### By Pranav Adith
